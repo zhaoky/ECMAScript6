@@ -1,0 +1,26 @@
+{
+  "name": "ecmascript6",
+  "version": "1.0.0",
+  "description": "### es6 demo练习",
+  "main": "",
+  "scripts": {
+    "start": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaoky/ECMAScript6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaoky/ECMAScript6/issues"
+  },
+  "homepage": "https://github.com/zhaoky/ECMAScript6#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
