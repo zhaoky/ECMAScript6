@@ -5,7 +5,7 @@ var webpack = require("webpack");
 
 module.exports = {
 	devtool  : "source-map",  //生成source-map
-	entry    : __dirname + "/es6/main.js",
+	entry    : __dirname + "/es6/1.letAndConst.js",
 	output   : {
 		path    : __dirname + "/public",
 		filename: "bundle.js",

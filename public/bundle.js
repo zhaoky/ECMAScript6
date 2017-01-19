@@ -42,41 +42,19 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	var _page = __webpack_require__(1);
-	
-	var _page2 = _interopRequireDefault(_page);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var a = "hello,es6!"; /**
-	                       * Created by zhaoky on 2017/1/19.
-	                       */
-	
-	
-	var b = { a: a };
-	
-	console.log(b, _page2.default);
-	
-	document.getElementById("a").innerHTML = "aaaaaaa";
-	document.getElementById("b").innerHTML = "bbbvv";
-
-/***/ },
-/* 1 */
 /***/ function(module, exports) {
 
 	"use strict";
 	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
 	/**
 	 * Created by zhaoky on 2017/1/19.
 	 */
-	exports.default = "hea~~";
+	{
+	  var _a = 10;
+	  var b = 20;
+	}
+	
+	console.log(a, b);
 
 /***/ }
 /******/ ]);
