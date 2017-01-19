@@ -34,7 +34,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "http://127.0.0.1:8888/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(0);
@@ -52,14 +52,17 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	var a = "hello,eeees6!"; /**
-	                          * Created by zhaoky on 2017/1/19.
-	                          */
+	var a = "hello,es6!"; /**
+	                       * Created by zhaoky on 2017/1/19.
+	                       */
 	
 	
 	var b = { a: a };
 	
 	console.log(b, _page2.default);
+	
+	document.getElementById("a").innerHTML = "aaaaaaa";
+	document.getElementById("b").innerHTML = "bbbvv";
 
 /***/ },
 /* 1 */
