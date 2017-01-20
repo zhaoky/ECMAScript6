@@ -47,27 +47,43 @@
 	"use strict";
 	
 	/**
-	 * Created by zhaoky on 2017/1/19.
+	 * Created by zhaoky on 2017/1/20.
 	 */
-	// {
-	// 	let c = 10;
-	// 	var b = 20;
-	// }
-	//
-	// console.log(c,b);
+	//2.变量的解构赋值
 	
-	// for(let i=0;i<10;i++){
-	//
-	// }
-	// console.log(i);  //not defined
+	//2.1数组
 	
-	var a = [];
-	for (var i = 0; i < 10; i++) {
-	    a[i] = function () {
-	        console.log(i);
-	    };
-	}
-	a[6](); // 10
+	var a = 1,
+	    b = 2,
+	    c = 3; //模式匹配,右边必须是数组
+	
+	var _ref = [1, 2, 3],
+	    d = _ref[2];
+	var e = 1,
+	    f = [2, 3, 4, 5];
+	var g = 1,
+	    h = 2,
+	    i = [3, 4, 5];
+	
+	var _ref2 = [1],
+	    j = _ref2[0],
+	    k = _ref2[1],
+	    l = _ref2.slice(2);
+	
+	// 默认值，惰性求值
+	// let [x = 1, y = x] = [];     // x=1; y=1
+	// let [x = 1, y = x] = [2];    // x=2; y=2
+	// let [x = 1, y = x] = [1, 2]; // x=1; y=2
+	// let [x = y, y = 1] = [];     // ReferenceError
+	
+	
+	console.log(a);
+	console.log(d);
+	console.log(e, f);
+	console.log(g, h, i);
+	console.log(j, k, l);
+	
+	//2.2
 
 /***/ }
 /******/ ]);
