@@ -29,7 +29,21 @@
 // console.log(j,k,l);
 
 //2.2对象的解构赋值
+//
+// var { bar, foo } = { foo: "aaa", bar: "bbb" };
+//
+// console.log(bar,foo);
+// let a = 1;
+// {
+//     let a = 2;
+//     console.log(a);
+//
+//    // let a = 2;
+//    // let a = 2;
+// }
+// console.log(a);
+//对象的解构赋值的内部机制，是先找到同名属性，然后再赋给对应的变量。真正被赋值的是后者，而不是前者。
+var {c:b} = {c:"111"};
 
-var { bar, foo } = { foo: "aaa", bar: "bbb" };
-
-console.log(bar,foo);
+console.log(b);
+console.log(c);
